@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+   background: linear-gradient(to right, #ffab66, #ff5e62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+input {
+    display: block;
+    width: 85%;
+    margin: 10px auto;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 2px solid #ff5e62;
+    outline: none;
+}
+
+
+button {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.1s;
+    margin-top: 15px;
+   
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    transform: scale(1.05);
+}
+
+
+p {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    
+}
+
+
+#result, #suggestion {
+    
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(63, 0, 0);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+#result {
+    background-color: #ff5e62;
+    border: 2px solid #ff5e62;
+ 
+}
+
+
+#suggestion {
+    background-color: #e57d28;
+    border: 2px solid #e57d70;
+}
+
+
+
+h1{
+    animation: type 8s steps(60, end); 
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000c23;
+    padding: 10px 0;
+  
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+}
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+
+
+
+
+
+
+
+
